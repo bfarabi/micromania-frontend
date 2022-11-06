@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   text-decoration: none !important;
-  list-style: none;
+  
 }
 
 header {
@@ -30,6 +30,10 @@ header {
   display: flex;
   align-items: center;
   margin-bottom: 0;
+  flex-wrap: nowrap !important;
+}
+.navbar1 li {
+list-style:none;
 }
 .navbar1 a {
   color: white;

@@ -34,7 +34,6 @@ const Navbar = () => {
           <Icon className='mx-1' icon="bxs:shopping-bag" color="white" width="28" />
           <Icon icon="akar-icons:search" color="white" width="25" />
 
-
         </div>
 
       </header>
