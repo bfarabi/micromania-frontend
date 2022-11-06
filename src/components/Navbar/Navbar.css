@@ -46,12 +46,7 @@ header {
   padding: 6px 10px;
   width: 84px;
 }
-/* .navbar a:hover{
-	color: var(--main-color);
-} */
-/* .navbar a.active{
-	color: var(--main-color);
-} */
+
 .main {
   display: flex;
   align-items: center;

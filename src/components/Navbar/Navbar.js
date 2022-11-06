@@ -13,7 +13,7 @@ const Navbar = () => {
   // }
   return (
     <>
-      <header>
+      <header >
         <div className='d-flex align-items-center'>
           <div className="bx bx-menu mx-2 " id="menu-icon" />
           <a href="#" > <img className="logo" src={microLogo} alt="" />  </a>
