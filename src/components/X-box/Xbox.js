@@ -1,14 +1,16 @@
 import { Icon } from '@iconify/react';
 import React from 'react';
 import './Xbox.css';
-import { Splide, SplideSlide } from '@splidejs/react-splide';
-// Default theme
-import '@splidejs/react-splide/css';
-// or other themes
-import '@splidejs/react-splide/css/skyblue';
-import '@splidejs/react-splide/css/sea-green';
-// or only core styles
-import '@splidejs/react-splide/css/core';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+// import { Splide, SplideSlide } from '@splidejs/react-splide';
+// // Default theme
+// import '@splidejs/react-splide/css';
+// // or other themes
+// import '@splidejs/react-splide/css/skyblue';
+// import '@splidejs/react-splide/css/sea-green';
+// // or only core styles
+// import '@splidejs/react-splide/css/core';
+import { Carousel } from 'react-responsive-carousel';
 
 const Xbox = () => {
 
@@ -35,14 +37,24 @@ const Xbox = () => {
               <h1> xbox slider</h1>
 
               {/* xbox slider */}
-              <Splide aria-label="My Favorite Images">
+              {/* <Splide aria-label="My Favorite Images">
                 <SplideSlide>
                   <img src="https://splidejs.com/images/slides/general/05.jpg" alt="Image 1" />
                 </SplideSlide>
                 <SplideSlide>
                   <img src="https://splidejs.com/images/slides/general/06.jpg" alt="Image 2" />
                 </SplideSlide>
-              </Splide>
+              </Splide> */}
+
+              {/* <Carousel showArrows={true} onChange={onChange} onClickItem={onClickItem} onClickThumb={onClickThumb}> */}
+              <Carousel >
+                <div>
+                  <img src="https://splidejs.com/images/slides/general/06.jpg" alt="" />
+                </div>
+                <div>
+                  <img src="https://splidejs.com/images/slides/general/05.jpg" alt="" />
+                </div>
+              </Carousel>
 
 
             </div>
