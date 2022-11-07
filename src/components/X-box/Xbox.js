@@ -35,7 +35,6 @@ const Xbox = () => {
           <div className="row py-3">
             <div className="col-md-6">
               <span className='offer-bonus'>Bonus Offer </span>
-              <h1> xbox slider</h1>
 
               {/* xbox slider */}
               <Splide aria-label="My Favorite Images">
